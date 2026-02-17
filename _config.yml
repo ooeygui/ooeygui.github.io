@@ -1,0 +1,19 @@
+title: OoeyGUI
+email: hello@ooeygui.dev
+description: >-
+  A fresh Jekyll site, ready for GitHub Pages.
+baseurl: ""
+url: "https://ooeygui.github.io"
+
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
