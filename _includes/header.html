@@ -1,0 +1,31 @@
+<header class="site-header" role="banner">
+  <div class="wrapper">
+    {%- assign default_paths = site.pages | map: "path" -%}
+    {%- assign page_paths = site.header_pages | default: default_paths -%}
+    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">
+      {{ site.title | escape }}
+    </a>
+
+    {%- if page_paths != empty -%}
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484l0,2.063c0,0.546-0.477,1.022-1.063,1.022H1.063C0.477,4.57,0,4.095,0,3.547V1.484c0-0.546,0.477-1.022,1.063-1.022h15.874C17.52,0.463,18,0.938,18,1.484 M18,7.516l0,2.063c0,0.547-0.477,1.022-1.063,1.022H1.063c-0.586,0-1.063-0.475-1.063-1.022l0-2.063c0-0.547,0.477-1.022,1.063-1.022h15.874C17.52,6.494,18,6.969,18,7.516 M18,13.552l0,2.063c0,0.546-0.477,1.022-1.063,1.022H1.063c-0.586,0-1.063-0.476-1.063-1.022l0-2.063c0-0.547,0.477-1.022,1.063-1.022h15.874C17.52,12.53,18,13.005,18,13.552" />
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger">
+          {%- for path in page_paths -%}
+            {%- assign my_page = site.pages | where: "path", path | first -%}
+            {%- if my_page.title -%}
+              <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+            {%- endif -%}
+          {%- endfor -%}
+        </div>
+      </nav>
+    {%- endif -%}
+  </div>
+</header>

@@ -1,9 +1,13 @@
 title: OoeyGUI
-email: hello@ooeygui.dev
 description: >-
-  A fresh Jekyll site, ready for GitHub Pages.
+  GUI Developer, turned IoT Developer, Robotics Developer, turned XR Developer
 baseurl: ""
-url: "https://ooeygui.github.io"
+url: "https://ooeygui.com"
+
+# Social Media
+twitter_username: ooeygui
+github_username: ooeygui
+youtube_username: ooey_gui
 
 theme: minima
 plugins:
@@ -17,3 +21,8 @@ exclude:
   - node_modules
   - vendor
   - README.md
+
+sass:
+  load_paths:
+    - _sass
+    - node_modules
