@@ -11,9 +11,9 @@ layout: default
     {{ content }}
 
     {%- if site.posts.size > 0 -%}
-      <h2>Latest Posts</h2>
+      <h2>{{ site.posts.size }} Posts in the Archive</h2>
       <div class="post-list">
-        {%- for post in site.posts limit:12 -%}
+        {%- for post in site.posts -%}
           <article>
             <h3><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
             <p class="post-meta">
