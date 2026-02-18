@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Own the toy life-cycle..."
 date: 2008-01-28 00:20:28
@@ -20,7 +20,7 @@ These thoughts have driven me to start designing and building my own 3D printer.
 	- Interfaces with [Sketchup](http://sketchup.google.com/)
 
 Here's a Sketchup of the latest design:
-[![Fabr](/assets/images/2008/01/fabr2.thumbnail.png)](/assets/images/2008/01/fabr2.png)Â 
+[![Fabr](/assets/images/2008/01/fabr2.thumbnail.png)](/assets/images/2008/01/fabr2.png)  
 I've been developing an arduino shield based on the EasyDriver which uses an [Allegro 3967 Microstepping stepper motor controller](http://www.allegromicro.com/en/Products/Part_Numbers/3967/index.asp). Essentially the board has 3 drivers, and connectors for end stops. The first board is currently being made at [Batch PCB - an offshoot of SparkFun](batchpcb.com); I expect it any day now. Once complete, I'll solder it up, and run it through its paces. I'm looking into using the 3977 which would allow a 2.5 amp motor - a project for another time.
 ![Arduino Shield](/assets/images/2008/01/controller.thumbnail.png)
-The next part of the project is the extruder. I'm currently determining if I want to route a cord, or have a granule hopper directly on the extruder head. Stay tuned.Â And yes, it has a funky Web 2.0 name - domains are hard to come by.... Fabr.org currently redirects to ooeygui.com.
+The next part of the project is the extruder. I'm currently determining if I want to route a cord, or have a granule hopper directly on the extruder head. Stay tuned.  �And yes, it has a funky Web 2.0 name - domains are hard to come by.... Fabr.org currently redirects to ooeygui.com.

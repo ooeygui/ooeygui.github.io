@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Data Visualization"
 date: 2007-01-18 00:27:48

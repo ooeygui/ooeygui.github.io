@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "3D Printer Status"
 date: 2008-02-08 23:39:01

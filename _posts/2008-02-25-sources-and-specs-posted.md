@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Sources and Specs Posted"
 date: 2008-02-25 00:12:54

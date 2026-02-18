@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Lou's Theory of Volumetric Deconstruction"
 date: 2008-01-30 05:12:20

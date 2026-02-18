@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Fail open - the blog"
 date: 2007-02-19 16:55:43
