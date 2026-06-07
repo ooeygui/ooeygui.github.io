@@ -7,19 +7,19 @@ wordpress_id: 97
 redirect_from: /?p=97
 ---
 
-I became  �intrigued  �by the concept of 'renewable manufacturing' - owning the life-cycle of everyday things. This idealism was captured by the RepRap project; who's tag line is 'Wealth without money'.
+I became intrigued by the concept of 'renewable manufacturing' - owning the life-cycle of everyday things. This idealism was captured by the RepRap project; whose tag line is 'Wealth without money'.
 
 
 
-In the early phases of the construction of Fabr, I ran into the classic RepStrapping problem - how do you build a device intended to be built using a 3D Printer without a 3D printer? I had attempted to use the printing services at the TechShop in Menlo Park, but was unsuccessful. After that failure, I decided to  �designed and build Fabr using commonly available materials and few custom parts.
+In the early phases of the construction of Fabr, I ran into the classic RepStrapping problem - how do you build a device intended to be built using a 3D Printer without a 3D printer? I had attempted to use the printing services at the TechShop in Menlo Park, but was unsuccessful. After that failure, I decided to  designed and build Fabr using commonly available materials and few custom parts.
 
 
 
-Over the last year, the RepRap organization has made changes independently which  �amusingly coincide with some Fabr design decisions, and Fabr has changed to be more like the RepRap in order to better leverage the software and firmware from the RepRap team.
+Over the last year, the RepRap organization has made changes independently which amusingly coincide with some Fabr design decisions, and Fabr has changed to be more like the RepRap in order to better leverage the software and firmware from the RepRap team.
 
 
 
-In  �essence, Fabr is a RepRap.
+In essence, Fabr is a RepRap.
 
 
 
@@ -33,7 +33,7 @@ Since my last post, I've been working on the following parts of the project:
 	- Using the new Mill & Lathe, I've improved some of the articulation points
 
 
-	- Implemented a multi-screw Y axis to compensate for unacceptable racking. I wish I could say that 80/20 is an asset, but the linear motion bearings are woefully  �inadequate and  �excruciatingly  �expensive.  �
+	- Implemented a multi-screw Y axis to compensate for unacceptable racking. I wish I could say that 80/20 is an asset, but the linear motion bearings are woefully inadequate and excruciatingly  expensive.
 
 
 	- I smoked my motor shield while debugging a stepper problem, and switched to using 4 EasyDrivers from SparkFun.
