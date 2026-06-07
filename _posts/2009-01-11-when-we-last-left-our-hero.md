@@ -7,7 +7,7 @@ wordpress_id: 199
 redirect_from: /?p=199
 ---
 
-The problem with multitasking is that your time is divided amongst  �all the projects you have going on. Not only divided, but context switching has overhead. Because of this, and the limited shop time, I haven't made much progress on any one area to  �warrant separate posts, so I'll recap.
+The problem with multitasking is that your time is divided amongst all the projects you have going on. Not only divided, but context switching has overhead. Because of this, and the limited shop time, I haven't made much progress on any one area to warrant separate posts, so I'll recap.
 
 ## **Cold Garage**
 
@@ -16,16 +16,16 @@ The problem with multitasking is that your time is divided amongst  �all the p
 
 
 
-The Cool Tools  �blog had a recommendation for the Dyna-Glo pro heater. Their usage was similar to mine, so I decided to try it. I have to say - while it heats up the place in no time, it is loud and smelly. But the garage is now usable until I can insulate it and install something more  �permanent... (Although my father says "There is nothing more permanent than that which is temporary")
+The Cool Tools blog had a recommendation for the Dyna-Glo pro heater. Their usage was similar to mine, so I decided to try it. I have to say - while it heats up the place in no time, it is loud and smelly. But the garage is now usable until I can insulate it and install something more permanent... (Although my father says "There is nothing more permanent than that which is temporary")
 
-## Grid Beam Bench (and experimental  �cartesian bot?)
-
-
-At Maker Faire last year, I came across a neat display about Grid Beam. Basically this is a  �large scale  �wood erector set which involves 2x2 sticks of standard lengths, with a repeating hole pattern. These beams are joined using furniture connector bolts. By joining 3 beams together, you create a very strong 'tri'-joint, which not only is self squaring, but creates a very rigid body. In fact, it seemed more rigid than the plastic and aluminum joints I currently use. Could I use a wood frame for the cartesian bot?
+## Grid Beam Bench (and experimental cartesian bot?)
 
 
+At Maker Faire last year, I came across a neat display about Grid Beam. Basically this is a large scale wood erector set which involves 2x2 sticks of standard lengths, with a repeating hole pattern. These beams are joined using furniture connector bolts. By joining 3 beams together, you create a very strong 'tri'-joint, which not only is self squaring, but creates a very rigid body. In fact, it seemed more rigid than the plastic and aluminum joints I currently use. Could I use a wood frame for the cartesian bot?
 
-A book was released a few months ago; Half of which is an anthology of grid beaming, the other half goes into a little detail about assembly. You can get it from [New Society publishers:](http://www.newsociety.com/bookid/3998)  �
+
+
+A book was released a few months ago; Half of which is an anthology of grid beaming, the other half goes into a little detail about assembly. You can get it from [New Society publishers:](http://www.newsociety.com/bookid/3998)
 
 
 
@@ -55,7 +55,7 @@ The arduino plugin for textmate has been taking much more time than it should. I
 ## RepRap firmware refactor
 
 
-I had worked on a design and implementation of Arduino design patterns which I will leverage in the Refactor. However, I hit a bug which doesn't reproduce on the desktop test client, so I believe it is a specific problem with the Libc on the Arduino. That project was put on hold until I got the hardware debugger.   �I have it now, and it will be the first thing I work on after I release the new Arduino plugin.
+I had worked on a design and implementation of Arduino design patterns which I will leverage in the Refactor. However, I hit a bug which doesn't reproduce on the desktop test client, so I believe it is a specific problem with the Libc on the Arduino. That project was put on hold until I got the hardware debugger. I have it now, and it will be the first thing I work on after I release the new Arduino plugin.
 
 ## Hercules Extruder
 
@@ -64,7 +64,7 @@ With Shop time limited, this has bubbled down the list. Since my implementation 
 
 
 
-The [Prometheus Fusion Perfection](http://prometheusfusionperfection.wordpress.com/)  �blog has developed a laser cut Herk extruder. It looks VERY sweet:
+The [Prometheus Fusion Perfection](http://prometheusfusionperfection.wordpress.com/) blog has developed a laser cut Herk extruder. It looks VERY sweet:
 
 
 

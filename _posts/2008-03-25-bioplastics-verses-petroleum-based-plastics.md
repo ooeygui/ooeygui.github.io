@@ -155,7 +155,7 @@ A comment was posted to my polystarch post which seems to be from a pro-petropla
 ### From [D2W](http://www.degradable.net/) - Degradable Plastics
 
 
-"Plastics made from crops, are at least 400% more expensive, they are not strong enough, and they emit methane (a powerful greenhouse gas) in landfill. Also, it is wrong to use land, water and fertilisers to grow crops for bioplastics and biofuels, which drives up the cost of food for the poorest people. See  �[http://euobserver.com/9/25831/?rk=1](http://euobserver.com/9/25831/?rk=1)
+"Plastics made from crops, are at least 400% more expensive, they are not strong enough, and they emit methane (a powerful greenhouse gas) in landfill. Also, it is wrong to use land, water and fertilisers to grow crops for bioplastics and biofuels, which drives up the cost of food for the poorest people. See [http://euobserver.com/9/25831/?rk=1](http://euobserver.com/9/25831/?rk=1)
 
 
 
@@ -182,23 +182,23 @@ Oxo-bio plastic is made from petroleum, but this is an advantage, not a disadvan
 
 PSM is definitely price competitive to petroleum based resin, and in some cases less costly.
 
-The strength may be suitable for some applications and not suitable for others.  � Not all petroleum plastics are   ��œstrong enough  �� � for all applications either.
+The strength may be suitable for some applications and not suitable for others. Not all petroleum plastics are 'strong enough' for all applications either.
 
 
 
-In most landfills, NOTHING degrades, not newspapers, not banana peels, and not PSM.  � Therefore, if it does not degrade, it will not release anything.  � Conversely, if it does degrade, it will not release any more gasses than food waste such as a corn cob.
+In most landfills, NOTHING degrades, not newspapers, not banana peels, and not PSM. Therefore, if it does not degrade, it will not release anything. Conversely, if it does degrade, it will not release any more gasses than food waste such as a corn cob.
 
 
 
-Unlike other biopolymers, PSM does not use corn intended for   ��œpeople food  �� �.  � Our stock is made specifically for PSM and is not affected, nor will affect, the global corn prices.
+Unlike other biopolymers, PSM does not use corn intended for 'people food'. Our stock is made specifically for PSM and is not affected, nor will affect, the global corn prices.
 
 
 
-The additives on the market that can be mixed in with petroleum plastics to make them   ��œdegradable  �� � are beneficial in extremely limited applications.  � In short, they break-apart (degrade) the product, but the plastic particles are still present.  � For example, the physical   ��œbag  �� � may be gone, but your lawn is now infused with plastic particles which will take tens of thousands of years to degrade or be eaten by animals and harm them.  � In many ways, it is harder to clean up the particles than the bags and bottles if they were intact.  � These additives are often marketed with a time lapse slide show showing that the product   ��œdisappears  �� �.  � What they don  �� ��t show you is the toxicity in the soil afterwards.  � Again, since most landfills are designed for nothing to degrade, anyone making a claim of   ��œlandfill degradation  �� � is probably bogus and needs to do more homework on what actually is happening in landfills.
+The additives on the market that can be mixed in with petroleum plastics to make them 'degradable' are beneficial in extremely limited applications. In short, they break-apart (degrade) the product, but the plastic particles are still present. For example, the physical 'bag' may be gone, but your lawn is now infused with plastic particles which will take tens of thousands of years to degrade or be eaten by animals and harm them. In many ways, it is harder to clean up the particles than the bags and bottles if they were intact. These additives are often marketed with a time lapse slide show showing that the product 'disappears'. What they don't show you is the toxicity in the soil afterwards. Again, since most landfills are designed for nothing to degrade, anyone making a claim of 'landfill degradation' is probably bogus and needs to do more homework on what actually is happening in landfills.
 
 
 
-In the final analysis, it is well known that petroleum is not a sustainable or renewable resource.  � The Earth will run out of it, so we need alternative technologies.  � The CO2 released from petroleum products is carbon that has been stored since long ago.  � The CO2 released from the degradation of PSM is carbon that has been recently pulled from the atmosphere so you have a much more healthy cycle.
+In the final analysis, it is well known that petroleum is not a sustainable or renewable resource. The Earth will run out of it, so we need alternative technologies. The CO2 released from petroleum products is carbon that has been stored since long ago. The CO2 released from the degradation of PSM is carbon that has been recently pulled from the atmosphere so you have a much more healthy cycle.
 
 
 

@@ -11,15 +11,15 @@ To teach the Karate kid how to defend himself, Mr. Miyagi used repetitive mundan
 
 
 
-Patterns are the muscle memory of programmers. They are time tested generic solutions to generic pervasive problems. Patterns provide terminology, improve maintainability, are relatively self documenting, and improve reusability. While not appropriate in all situations and difficult to build in at design time, I  �� ��m very much a fan of refactoring to patterns.
+Patterns are the muscle memory of programmers. They are time tested generic solutions to generic pervasive problems. Patterns provide terminology, improve maintainability, are relatively self documenting, and improve reusability. While not appropriate in all situations and difficult to build in at design time, I'm very much a fan of refactoring to patterns.
 
 
 
-I love Wiring. It  �� ��s a cute API which enables more people of diverse backgrounds to enjoy playing with Microcontrollers. Wiring as an API doesn  �� ��t enforce a design model on users of Microcontrollers, which I believe is both a strength and a weakness. As a strength, the lack of structure is more approachable to developers. As Wiring projects become larger and subject to more uses than hey originally built for, the lack of structure becomes a weakness - It becomes harder to share or reuse code.
+I love Wiring. It's a cute API which enables more people of diverse backgrounds to enjoy playing with Microcontrollers. Wiring as an API doesn't enforce a design model on users of Microcontrollers, which I believe is both a strength and a weakness. As a strength, the lack of structure is more approachable to developers. As Wiring projects become larger and subject to more uses than hey originally built for, the lack of structure becomes a weakness - It becomes harder to share or reuse code.
 
 
 
-Fabr uses a stepper motor for the extruder instead of an brushed motor. This has caused me problems integrating the RepRap code directly into my project. With the support of Zach, who created the original RepRap firmware for the Arduino, I  �� ��m going to attempt to refactor the code base to use patterns and implement device abstraction. 
+Fabr uses a stepper motor for the extruder instead of an brushed motor. This has caused me problems integrating the RepRap code directly into my project. With the support of Zach, who created the original RepRap firmware for the Arduino, I'm going to attempt to refactor the code base to use patterns and implement device abstraction. 
 
 
 
@@ -114,7 +114,7 @@ Additionally, the Event loop could be used to drive periodic events such as serv
 ### Observable Pattern
 
 
-When I first heard about this pattern, I thought   ��˜This has a name?  �� ��. An object which has state can be observed by one or more objects. When that state changes, the observers are notified and that state change can be acted upon. The state can change due to an interrupt firing, a polling event (during an event loop), or state being set by a another component.
+When I first heard about this pattern, I thought 'This has a name?'. An object which has state can be observed by one or more objects. When that state changes, the observers are notified and that state change can be acted upon. The state can change due to an interrupt firing, a polling event (during an event loop), or state being set by a another component.
 
 
 
@@ -127,7 +127,7 @@ There are several cases where this is interesting for microcontrollers - End sto
 ### Interface Pattern
 
 
-An interface is an abstraction which generalizes a class of functionality. In C++ this is done using an abstract base class. Typically interfaces implement some form of interface discovery mechanism (like Microsoft COM  �� ��s QueryInterface) and maybe memory management (AddRef/Release). This use of this pattern will become evident in future pattern discussions.
+An interface is an abstraction which generalizes a class of functionality. In C++ this is done using an abstract base class. Typically interfaces implement some form of interface discovery mechanism (like Microsoft COM's QueryInterface) and maybe memory management (AddRef/Release). This use of this pattern will become evident in future pattern discussions.
 
 
 
@@ -138,7 +138,7 @@ A device is something attached to the microcontroller. It can have a custom inte
 
 
 
-A stepper device could expose the generic motor interface which has properties like   ��˜rate  �� �� and   ��˜direction  �� ��, and methods like    ��˜stop  �� �� and   ��˜start  �� ��. This motor interface could be implemented using a stepper or brushed motor, or even a linear motion device. However, an Axis mechanism need only be written to the motor interface.
+A stepper device could expose the generic motor interface which has properties like 'rate' and 'direction', and methods like 'stop' and 'start'. This motor interface could be implemented using a stepper or brushed motor, or even a linear motion device. However, an Axis mechanism need only be written to the motor interface.
 
 
 
@@ -196,7 +196,7 @@ The gcode behavior will then flush the serial transport so that it can buffer th
 
 
 
-At this point - the serial transport, extruder and axes are independently performing their operations as the event loop is servicing them. The next command is held buffered until the gcode behavior receives the cartesian mechanism  �� ��s   ��˜destination complete  �� �� notification.
+At this point - the serial transport, extruder and axes are independently performing their operations as the event loop is servicing them. The next command is held buffered until the gcode behavior receives the cartesian mechanism's 'destination complete' notification.
 
 
 
@@ -204,11 +204,11 @@ When the cartesian mechanism has been notified by each axis that they have reach
 
 
 
-When the position of an Axis is not at the destination location, it sets the motor direction and instructs it to   ��˜move  �� �� at a certain speed. If the axis is built using stepper motors, the motor device registers for periodic notifications from the event loop, the period is defined by the feed rate and stepper configuration. During each trigger from the event loop, it will step the motor.
+When the position of an Axis is not at the destination location, it sets the motor direction and instructs it to 'move' at a certain speed. If the axis is built using stepper motors, the motor device registers for periodic notifications from the event loop, the period is defined by the feed rate and stepper configuration. During each trigger from the event loop, it will step the motor.
 
 
 
-The End stops are an interesting device. This device could be implemented with an interrupt or poll using a periodic event on the event loop. In either case, when the end stop triggers, observers are notified - in this case the axis. In response, the axis will pause the motor and notify its observers of an   ��˜axis end reached  �� �� event.
+The End stops are an interesting device. This device could be implemented with an interrupt or poll using a periodic event on the event loop. In either case, when the end stop triggers, observers are notified - in this case the axis. In response, the axis will pause the motor and notify its observers of an 'axis end reached' event.
 
 
 

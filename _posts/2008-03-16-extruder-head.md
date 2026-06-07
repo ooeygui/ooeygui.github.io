@@ -11,7 +11,7 @@ I spent quite a bit of time the last couple of weeks working on a feeder and hea
 
 
 
-My first attempts at feeding the filament were with a screw. It turns out that the filament is too slippery to grip with any certainty.  �This may work for granules, but for filament I think I need something else. One design I've seen for commercial extruders uses a feed roller. From sdp-si.com, I ordered a feed and grooved idler. Hopefully the  �urethane  �roller will engage the plastic better than the feed screw.
+My first attempts at feeding the filament were with a screw. It turns out that the filament is too slippery to grip with any certainty. This may work for granules, but for filament I think I need something else. One design I've seen for commercial extruders uses a feed roller. From sdp-si.com, I ordered a feed and grooved idler. Hopefully the urethane roller will engage the plastic better than the feed screw.
 
 
 

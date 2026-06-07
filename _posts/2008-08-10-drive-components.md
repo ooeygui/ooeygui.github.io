@@ -19,7 +19,7 @@ This motor is 600ma, is compatible with the A3967, has a .25" spindle which fits
 
 
 
-[![](/assets/images/2008/07/g13605t.jpg)](http://www.goldmine-elec-products.com/prodinfo.asp?number=G13605)  �  �  �  �  �  �  �  �  �  �  �  �  �  �  �  �  �  �
+[![](/assets/images/2008/07/g13605t.jpg)](http://www.goldmine-elec-products.com/prodinfo.asp?number=G13605)
 
 [![](/assets/images/2008/07/g13608t.jpg)](http://www.goldmine-elec-products.com/prodinfo.asp?number=G13608)
 

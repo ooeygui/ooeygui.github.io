@@ -1,15 +1,15 @@
 ---
 layout: home
-title: OoeyGUI — Neon Dreams & Digital Reality
+title: OoeyGUI
 ---
 
-# ⚡ WELCOME TO OOEYGUI ⚡
-
-Welcome to the digital frontier where **1980s cyberpunk dreams** meet **cutting-edge technology**.
+# [ OoeyGUI ]
 
 I'm a **GUI Developer** → **IoT Developer** → **Robotics Developer** → **XR Developer** —  always pushing the boundaries between digital and physical worlds.
 
-## [ 🎮 WHAT YOU'LL FIND HERE ]
+What's in a name? My friend Steve convinced me to start a blog when we were building what became the Windows Vista Sidebar. I was pushing boundries of user interfaces, and he said "you should call it OoeyGUI because it's all about making GUIs that are 'ooey gooey' and fun to use." The name stuck, and here we are.
+
+## [ WHAT YOU'LL FIND HERE ]
 
 - **3D Printing & Robotics** — Projects that blur the line between code and reality
 - **Electronics & Hardware** — Arduino, stepper motors, and components that spark
